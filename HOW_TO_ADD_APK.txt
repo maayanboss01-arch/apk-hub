@@ -1,0 +1,19 @@
+HOW TO ADD AN APK
+1. Open your GitHub repository.
+2. Open the apks folder and upload your APK.
+3. Open the icons folder and upload the icon (optional).
+4. Open apps.js.
+5. Add:
+{
+  name: "My App",
+  version: "1.0",
+  size: "25 MB",
+  description: "My app description",
+  icon: "icons/my-app.png",
+  file: "apks/my-app.apk"
+},
+6. Commit changes and wait for GitHub Pages to update.
+Example APK: file: "apks/calculator.apk"
+Example icon: icon: "icons/calculator.png"
+Only distribute APKs you created or have permission to distribute.
+This website does NOT perform virus scanning.
